@@ -1,12 +1,15 @@
 [
   {
 		"widgetList": ["TableExternalComponent"],
+	 	"hideenBaseProperties": ["label"],
+		"hideenLayoutProperties": ["orientation"],
+		"hideenExpressionProperties":["required", "readOnly", "disabled"],
 		"customAttributes": [{
-			"propertyName": "dataConfig",
-			"defaultValueMapping": "dataConfig.url",
+			"propertyName": "columns",
+			"defaultValueMapping": "columns",
 			"type": "textarea",
-			"label": "Data Config",
-			"placeholder": "Enter data config url"
+			"label": "Columns Array",
+			"placeholder": "Enter columns array colWidth,colName,accessor,title,html etc"
 		}]        
   }
 ]
