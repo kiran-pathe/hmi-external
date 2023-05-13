@@ -1,0 +1,12 @@
+[
+  {
+		"widgetList": ["TableExternalComponent"],
+		"customAttributes": [{
+			"propertyName": "dataConfig",
+			"defaultValueMapping": "dataConfig.url",
+			"type": "textarea",
+			"label": "Data Config",
+			"placeholder": "Enter data config url"
+		}]        
+  }
+]
