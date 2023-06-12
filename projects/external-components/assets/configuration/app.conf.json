@@ -189,7 +189,23 @@
         "linkTags": [],
         "ifPageNotFound": "notFound",
         "interceptorConfigurations": [],
-        "apiConfigurations": [],
+        "apiConfigurations": [
+            {
+                "name": "API Name",
+                "url": "",
+                "method": "",
+                "pathParams": [],
+                "queryParams": [],
+                "payloadParams": [],
+                "onSuccess": {},
+                "onError": {},
+                "beforeSubmit": {
+                    "action": []
+                },
+                "downloadFileName": "",
+                "responseType": ""
+            }
+        ],
         "layoutProperties": {
             "labelPlacement": "top",
             "width": null,
