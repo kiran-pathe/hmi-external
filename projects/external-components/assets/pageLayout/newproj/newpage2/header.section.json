@@ -13,8 +13,16 @@
                     }
                 },
                 "css": {
-                    "configuration": [],
-                    "customClassName": null
+                    "customClassName": "",
+                    "configuration": [
+                        {
+                            "selectorName": ".header-height",
+                            "xs": {
+                                "height": "50px"
+                            }
+                        }
+                    ],
+                    "themeClass": ""
                 }
             },
             "sectionList": []
