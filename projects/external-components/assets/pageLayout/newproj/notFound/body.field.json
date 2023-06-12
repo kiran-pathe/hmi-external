@@ -1,0 +1,25 @@
+{
+    "dnd-0": [
+        {
+            "baseProperties": {
+                "type": "staticText",
+                "id": "dnd-1",
+                "name": ""
+            },
+            "layoutProperties": {
+                "labelPlacement": null,
+                "width": null,
+                "height": null,
+                "css": {
+                    "customClassName": "fw-bold",
+                    "configuration": [],
+                    "themeClass": ""
+                },
+                "orientation": null
+            },
+            "events": [],
+            "expressionProperties": {},
+            "value": "Page Not Found !!!!!"
+        }
+    ]
+}
