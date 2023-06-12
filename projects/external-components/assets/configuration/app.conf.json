@@ -185,7 +185,14 @@
     },
     "hmiAppConfiguration": {
         "title": "sampleApp",
-        "metaTags": [],
+        "metaTags": [
+            {
+                "name": "description",
+                "content": "sample web site for testing",
+                "httpEquiv": "",
+                "charset": "utf-8"
+            }
+        ],
         "linkTags": [],
         "ifPageNotFound": "newpage2",
         "interceptorConfigurations": [],
@@ -231,7 +238,7 @@
             "width": null,
             "height": null,
             "css": {
-                "customClassName": "c1",
+                "customClassName": "myCustomClass",
                 "configuration": [
                     {
                         "selectorName": ".fw-bold",
