@@ -1,1 +1,205 @@
-{"newpage2":{"headerField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage2/header.field.json"},"headerSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage2/header.section.json"},"field":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage2/body.field.json"},"section":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage2/body.section.json"},"footerField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage2/footer.field.json"},"footerSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage2/footer.section.json"},"data":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage2/body.data.json"},"navField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage2/nav.field.json"},"navSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage2/nav.section.json"},"authGuardConfig":{"enabled":false,"conditions":[]},"globalPageSettings":{"title":"newpage2","layoutProperties":null}},"newpage3":{"headerField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage3/header.field.json"},"headerSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage3/header.section.json"},"field":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage3/body.field.json"},"section":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage3/body.section.json"},"footerField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage3/footer.field.json"},"footerSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage3/footer.section.json"},"data":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage3/body.data.json"},"navField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage3/nav.field.json"},"navSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newpage3/nav.section.json"},"authGuardConfig":{"enabled":false,"conditions":[]},"globalPageSettings":{"title":"newpage3","layoutProperties":null}},"newp2":{"headerField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newp2/header.field.json"},"headerSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newp2/header.section.json"},"field":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newp2/body.field.json"},"section":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newp2/body.section.json"},"footerField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newp2/footer.field.json"},"footerSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newp2/footer.section.json"},"data":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newp2/body.data.json"},"navField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newp2/nav.field.json"},"navSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/newp2/nav.section.json"},"authGuardConfig":{"enabled":false,"conditions":[]},"globalPageSettings":{"title":"newp2","layoutProperties":null}},"ktm":{"headerField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/ktm/header.field.json"},"headerSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/ktm/header.section.json"},"field":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/ktm/body.field.json"},"section":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/ktm/body.section.json"},"footerField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/ktm/footer.field.json"},"footerSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/ktm/footer.section.json"},"data":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/ktm/body.data.json"},"navField":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/ktm/nav.field.json"},"navSection":{"fetchFromLocal":true,"localURL":"./assets/pageLayout/newproj/ktm/nav.section.json"},"authGuardConfig":{"enabled":false,"conditions":[]},"globalPageSettings":{"title":"ktm","layoutProperties":null}}}
+{
+    "newpage2": {
+        "headerField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage2/header.field.json"
+        },
+        "headerSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage2/header.section.json"
+        },
+        "field": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage2/body.field.json"
+        },
+        "section": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage2/body.section.json"
+        },
+        "footerField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage2/footer.field.json"
+        },
+        "footerSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage2/footer.section.json"
+        },
+        "data": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage2/body.data.json"
+        },
+        "navField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage2/nav.field.json"
+        },
+        "navSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage2/nav.section.json"
+        },
+        "authGuardConfig": {
+            "enabled": false,
+            "conditions": []
+        },
+        "globalPageSettings": {
+            "title": "newpage2",
+            "layoutProperties": null
+        }
+    },
+    "newpage3": {
+        "headerField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage3/header.field.json"
+        },
+        "headerSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage3/header.section.json"
+        },
+        "field": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage3/body.field.json"
+        },
+        "section": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage3/body.section.json"
+        },
+        "footerField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage3/footer.field.json"
+        },
+        "footerSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage3/footer.section.json"
+        },
+        "data": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage3/body.data.json"
+        },
+        "navField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage3/nav.field.json"
+        },
+        "navSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newpage3/nav.section.json"
+        },
+        "authGuardConfig": {
+            "enabled": false,
+            "conditions": []
+        },
+        "globalPageSettings": {
+            "title": "newpage3",
+            "layoutProperties": null
+        }
+    },
+    "newp2": {
+        "headerField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newp2/header.field.json"
+        },
+        "headerSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newp2/header.section.json"
+        },
+        "field": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newp2/body.field.json"
+        },
+        "section": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newp2/body.section.json"
+        },
+        "footerField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newp2/footer.field.json"
+        },
+        "footerSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newp2/footer.section.json"
+        },
+        "data": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newp2/body.data.json"
+        },
+        "navField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newp2/nav.field.json"
+        },
+        "navSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/newp2/nav.section.json"
+        },
+        "authGuardConfig": {
+            "enabled": false,
+            "conditions": []
+        },
+        "globalPageSettings": {
+            "title": "newp2",
+            "layoutProperties": null
+        }
+    },
+    "ktm": {
+        "headerField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/ktm/header.field.json"
+        },
+        "headerSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/ktm/header.section.json"
+        },
+        "field": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/ktm/body.field.json"
+        },
+        "section": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/ktm/body.section.json"
+        },
+        "footerField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/ktm/footer.field.json"
+        },
+        "footerSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/ktm/footer.section.json"
+        },
+        "data": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/ktm/body.data.json"
+        },
+        "navField": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/ktm/nav.field.json"
+        },
+        "navSection": {
+            "fetchFromLocal": true,
+            "localURL": "./assets/pageLayout/newproj/ktm/nav.section.json"
+        },
+        "authGuardConfig": {
+            "enabled": false,
+            "conditions": []
+        },
+        "globalPageSettings": {
+            "title": "ktm",
+            "layoutProperties": null
+        }
+    },
+    "hmiAppConfiguration": {
+        "title": "sampleApp",
+        "metaTags": [],
+        "linkTags": [],
+        "ifPageNotFound": "",
+        "interceptorConfigurations": [],
+        "apiConfigurations": [],
+        "layoutProperties": {
+            "labelPlacement": "top",
+            "width": null,
+            "height": null,
+            "css": {
+                "customClassName": "",
+                "configuration": [],
+                "themeClass": ""
+            },
+            "orientation": null
+        }
+    }
+}
