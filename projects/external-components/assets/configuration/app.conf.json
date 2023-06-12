@@ -187,7 +187,7 @@
         "title": "sampleApp",
         "metaTags": [],
         "linkTags": [],
-        "ifPageNotFound": "notFound",
+        "ifPageNotFound": "newpage2",
         "interceptorConfigurations": [],
         "apiConfigurations": [
             {
@@ -197,13 +197,33 @@
                 "pathParams": [],
                 "queryParams": [],
                 "payloadParams": [],
-                "onSuccess": {},
-                "onError": {},
+                "fetch": "",
+                "downloadFileName": "",
+                "responseType": "",
                 "beforeSubmit": {
                     "action": []
                 },
-                "downloadFileName": "",
-                "responseType": ""
+                "onSuccess": {
+                    "pageUrl": "",
+                    "deleteTableRow": false,
+                    "showSuccessMessage": false,
+                    "sharedData": [],
+                    "fieldData": [],
+                    "clearSharedData": [],
+                    "apiDataAccessor": "",
+                    "message": "",
+                    "actions": []
+                },
+                "onError": {
+                    "pageUrl": "",
+                    "sharedData": [],
+                    "fieldData": [],
+                    "clearSharedData": [],
+                    "apiDataAccessor": "",
+                    "message": "",
+                    "showErrorMessage": false,
+                    "actions": []
+                }
             }
         ],
         "layoutProperties": {
