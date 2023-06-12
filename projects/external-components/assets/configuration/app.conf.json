@@ -44,7 +44,7 @@
             "title": "newpage2",
             "layoutProperties": {
                 "css": {
-                    "customClassName": "",
+                    "customClassName": "height-header1",
                     "configuration": [
                         {
                             "selectorName": ".height-header",
