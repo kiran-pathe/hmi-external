@@ -42,7 +42,20 @@
         },
         "globalPageSettings": {
             "title": "newpage2",
-            "layoutProperties": null
+            "layoutProperties": {
+                "css": {
+                    "customClassName": "",
+                    "configuration": [
+                        {
+                            "selectorName": ".height-header",
+                            "xs": {
+                                "height": "50px"
+                            }
+                        }
+                    ],
+                    "themeClass": ""
+                }
+            }
         }
     },
     "newpage3": {
