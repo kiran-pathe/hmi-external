@@ -2,12 +2,13 @@
     "dnd-0": [
         {
             "baseProperties": {
-                "type": "staticText",
-                "id": "dnd-1",
-                "name": "Username"
+                "type": "text",
+                "id": "dnd-2",
+                "name": "uname",
+                "label": "Username"
             },
             "layoutProperties": {
-                "labelPlacement": null,
+                "labelPlacement": "left",
                 "width": null,
                 "height": null,
                 "css": {
@@ -20,13 +21,6 @@
             "events": [],
             "expressionProperties": {},
             "value": null
-        },
-        {
-            "baseProperties": {
-                "type": "text",
-                "id": "dnd-2"
-            },
-            "layoutProperties": {}
         }
     ]
 }
