@@ -224,14 +224,20 @@
                     "action": []
                 },
                 "onSuccess": {
-                    "pageUrl": "",
+                    "pageUrl": "newpage2",
                     "deleteTableRow": false,
-                    "showSuccessMessage": false,
+                    "showSuccessMessage": true,
                     "sharedData": [],
-                    "fieldData": [],
+                    "fieldData": [
+                        {
+                            "id": "",
+                            "responseAccessor": "",
+                            "staticValue": ""
+                        }
+                    ],
                     "clearSharedData": [],
                     "apiDataAccessor": "",
-                    "message": "",
+                    "message": "Successss",
                     "actions": []
                 },
                 "onError": {
