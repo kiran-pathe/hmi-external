@@ -211,9 +211,9 @@
         "interceptorConfigurations": [],
         "apiConfigurations": [
             {
-                "name": "API Name",
-                "url": "",
-                "method": "",
+                "name": "testApi",
+                "url": "/getInitialData",
+                "method": "GET",
                 "pathParams": [],
                 "queryParams": [],
                 "payloadParams": [],
