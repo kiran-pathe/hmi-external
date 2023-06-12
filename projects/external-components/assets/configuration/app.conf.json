@@ -195,8 +195,15 @@
             "width": null,
             "height": null,
             "css": {
-                "customClassName": "",
-                "configuration": [],
+                "customClassName": "c1",
+                "configuration": [
+                    {
+                        "selectorName": ".fw-bold",
+                        "xs": {
+                            "font-weight": "bold"
+                        }
+                    }
+                ],
                 "themeClass": ""
             },
             "orientation": null
