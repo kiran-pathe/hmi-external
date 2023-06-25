@@ -1,0 +1,60 @@
+{
+    "dnd-0": [
+        {
+            "baseProperties": {
+                "type": "text",
+                "id": "dnd-1"
+            },
+            "layoutProperties": {
+                "labelPlacement": null,
+                "width": null,
+                "height": null,
+                "css": {
+                    "customClassName": "",
+                    "configuration": [],
+                    "themeClass": ""
+                },
+                "orientation": null
+            },
+            "events": [
+                {
+                    "event": "click",
+                    "debounce": null,
+                    "actions": [
+                        {
+                            "actionType": "INVOKE_API",
+                            "url": "",
+                            "condition": "1==1",
+                            "field": "",
+                            "fieldValue": "",
+                            "messagetype": "",
+                            "messageText": "",
+                            "target": "",
+                            "timer": null,
+                            "formName": "",
+                            "componentName": "",
+                            "sharedData": [],
+                            "apiConfig": {
+                                "name": "API Name",
+                                "url": "/testurl",
+                                "method": "GET",
+                                "pathParams": [],
+                                "queryParams": [],
+                                "payloadParams": [],
+                                "onSuccess": {},
+                                "onError": {},
+                                "beforeSubmit": {
+                                    "action": []
+                                },
+                                "downloadFileName": "",
+                                "responseType": ""
+                            }
+                        }
+                    ]
+                }
+            ],
+            "expressionProperties": {},
+            "value": null
+        }
+    ]
+}
