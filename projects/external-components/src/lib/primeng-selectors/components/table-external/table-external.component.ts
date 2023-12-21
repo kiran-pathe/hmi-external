@@ -17,11 +17,20 @@ export class TableExternalComponent extends CommonExternalComponent implements O
   }
 
   ngOnInit(): void {
-    this.refreshTable();
+    this.refreshTable(true);
     this.subscription = this.fieldObj.action.subscribe((actionObj: any) => {
       if (actionObj.actionType === "RELOAD_COMPONENT_DATA") {
         this.refreshTable();
-      }      
+      }
+      if (actionObj.actionType === "setfield") {
+        this.data = actionObj.data;
+      }
+      if (actionObj.actionType === "SHOW_COMPONENT_LOADER") {
+        this.primeElement.loading = true;
+      }
+      if (actionObj.actionType === "HIDE_COMPONENT_LOADER") {
+        this.primeElement.loading = false;
+      }
     });
   }
 
@@ -29,13 +38,25 @@ export class TableExternalComponent extends CommonExternalComponent implements O
     this.primeElement!.filterGlobal(($event.target as HTMLInputElement).value, 'contains');
   }
 
-  refreshTable() {
-    this.primeElement.loading = true;
-    if (this.fieldObj.customAttributes.dataConfig && this.fieldObj.customAttributes.dataConfig.url) {
-      this.customApiCall(this.fieldObj.customAttributes.dataConfig).subscribe((data: any) => {        
-        this.data = data;
-        this.primeElement.loading = false;
-      });
+  refreshTable(isOnLoad?: boolean) {
+    if (this.fieldObj.customAttributes?.triggerFilterGroupOnRefresh && !isOnLoad) {
+      this.initializeEvents.emit({ name: "fireEvent", events: [
+        {
+          "event": "click",
+          "actions": [{
+            "actionType": "RELOAD_COMPONENT_DATA",
+            "componentName": this.fieldObj.customAttributes?.triggerFilterGroupOnRefresh
+          }]
+        }
+      ], data: null});
+    } else {
+      this.primeElement.loading = true;
+      if (this.fieldObj.customAttributes.dataConfig && this.fieldObj.customAttributes.dataConfig.url) {
+        this.customApiCall(this.fieldObj.customAttributes.dataConfig).subscribe((data: any) => {
+          this.data = data;
+          this.primeElement.loading = false;
+        });
+      }
     }
   }
 
@@ -99,7 +120,23 @@ export class TableExternalComponent extends CommonExternalComponent implements O
             doc.save(fileName+'.pdf');
         })
     })
-}
+  }
+
+  printPreview() {
+    // Add a CSS class to the element you want to print
+    const originalElement = document.getElementById('tableExternal-'+this.fieldObj.baseProperties.id);
+    const newWindow = window.open('', '_open');
+    if (originalElement && newWindow) {
+        newWindow.document.write('<link rel="stylesheet" type="text/css" href="styles.css" onload="onCssLoad()">');
+        newWindow.document.write('<script> function onCssLoad(){ window.print();}</script>');
+        newWindow.document.write('<html><head><title>Print Preview</title></head>');
+        newWindow.document.write('<style>@media print { .d-print-none, .p-datatable-header { display: none; } }</style>');
+        newWindow.document.write('<body>');
+        newWindow.document.write(originalElement.outerHTML);
+        newWindow.document.write('</body></html>');
+        newWindow.document.close();
+    }
+  }
 
   exportExcel() {
       import("xlsx").then(xlsx => {
@@ -112,20 +149,21 @@ export class TableExternalComponent extends CommonExternalComponent implements O
             }
           });
 
+          // rows obj keys must follow exportKeys value
           const exportList = this.data.map((obj:any) => {
             const newObj:any = {};
-            for (const prop in obj) {
-              if (exportKeys.includes(prop)) {
-                newObj[prop] = obj[prop];
-              }
+            for (const keyName of exportKeys) {
+              newObj[keyName] = obj[keyName]
             }
             return newObj;
           });
 
           const worksheet = xlsx.utils.json_to_sheet(exportList);
+          const workbook = xlsx.utils.book_new();
+          xlsx.utils.book_append_sheet(workbook, worksheet, "Data");
           /* replace first row */
           xlsx.utils.sheet_add_aoa(worksheet, [customHeaders], { origin: "A1" });
-          const workbook = { Sheets: { 'data': worksheet }, SheetNames: ['data'] };
+   
           const excelBuffer: any = xlsx.write(workbook, { bookType: 'xlsx', type: 'array' });
           this.saveAsExcelFile(excelBuffer, this.fieldObj.customAttributes.downloadExcelFileName || 'downloadedExcel');
 
